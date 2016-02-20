@@ -201,6 +201,8 @@ public class StarManager {
 		}
 		Collections.sort(starlist);
 	}
+	
+	
 	@SuppressWarnings("unchecked")
 	public void ReadStars(String line){
 

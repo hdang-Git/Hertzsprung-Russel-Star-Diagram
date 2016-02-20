@@ -1,0 +1,14 @@
+import javax.swing.JApplet;
+
+
+
+@SuppressWarnings("serial")
+public class Driver extends JApplet {
+
+	public static void main(String[] args) {
+
+		new DisplayGUI();
+		
+	}
+
+}
