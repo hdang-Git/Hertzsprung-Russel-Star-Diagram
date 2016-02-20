@@ -1,0 +1,5 @@
+C:\Users\Kevin\Documents\GitHub\Hertzsprung-Russel-Star-Diagram\Hertzsprung-Russel-Star-Diagram\HRStarDiagram\bin\HRStarDiagram.dll
+C:\Users\Kevin\Documents\GitHub\Hertzsprung-Russel-Star-Diagram\Hertzsprung-Russel-Star-Diagram\HRStarDiagram\bin\HRStarDiagram.pdb
+C:\Users\Kevin\Documents\GitHub\Hertzsprung-Russel-Star-Diagram\Hertzsprung-Russel-Star-Diagram\HRStarDiagram\obj\Debug\HRStarDiagram.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\GitHub\Hertzsprung-Russel-Star-Diagram\Hertzsprung-Russel-Star-Diagram\HRStarDiagram\obj\Debug\HRStarDiagram.dll
+C:\Users\Kevin\Documents\GitHub\Hertzsprung-Russel-Star-Diagram\Hertzsprung-Russel-Star-Diagram\HRStarDiagram\obj\Debug\HRStarDiagram.pdb
