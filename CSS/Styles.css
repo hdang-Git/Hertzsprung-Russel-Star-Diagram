@@ -79,6 +79,17 @@ a:hover
       font-size: 12px;
    }
 }
+@media only screen and (max-width: 800px)
+{
+   .macDown,.winDown
+   {
+      display: none;
+   }
+  /*.downLnk
+  {
+   
+  }*/
+}
 @media only screen and (max-width: 1000px)
 {
    .descSM
