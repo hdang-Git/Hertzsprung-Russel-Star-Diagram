@@ -7,6 +7,8 @@
     <link href="CSS/bootstrap.min.css" rel="stylesheet" />
     <link href="CSS/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="CSS/Styles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="JS/bootstrap.min.js" rel="stylesheet"></script>
 </head>
 <body>
     <div class="container-fullwidth">
@@ -25,37 +27,81 @@
             </div>
         </nav>
         <div class="bodyContent">
-           <table border="1" style="padding: 5px">
-            <th>Star Name</th>
-            <th>Age</th>
-            <th>Life</th>
-            <th>Color</th>
-            <th>Size</th>
-            <th>Matter</th>
-            <th>Distance From The Sun</th>
-            <th>Temperature</th>
-            <tr>
-                <td>Alpha Centauri (Proxima)</td>
-                <td>4.5-4.7 Gyn</td>
-                <td>4.4-6.5 Gyn</td>
-                <td>Yellow Orange</td>
-                <td>Triple Star Cluster (A, B, Proxima) - B is 90% mass of the sun, A is 10% more massive than the sun</td>
-                <td>Hydrogen, Helium</td>
-                <td>4.3 light yrs away</td>
-                <td>5,790 K</td>
-            </tr>
-            <tr>
-                <td>Polaris (North Star)</td>
-                <td>Unknown</td>
+            <div class="panel-group">
+                <div class="panel panel-default panelTitlePadding">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#star1">Alpha Centauri (Proxima)</a>
+                    </h4>
+                    <div id="star1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                             <table border="1" style="padding: 5px">
+                                <th>Age</th>
+                                <th>Life</th>
+                                <th>Color</th>
+                                <th>Size</th>
+                                <th>Matter</th>
+                                <th>Distance From The Sun</th>
+                                <th>Temperature</th>
+                                <tr>
+                                    <td>4.5-4.7 Gyr</td>
+                                    <td>4.4-6.5 Gyr</td>
+                                    <td>Yellow Orange</td>
+                                    <td>Triple Star Cluster (A, B, Proxima) - B is 90% mass of the sun, A is 10% more massive than the sun</td>
+                                    <td>Hydrogen, Helium</td>
+                                    <td>4.3 light yrs away</td>
+                                    <td>5,790 K</td>
+                                </tr>
+                             </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group">
+                <div class="panel panel-default panelTitlePadding">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#star2">Polaris (North Star)</a>
+                    </h4>
+                    <div id="star2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                             <table border="1" style="padding: 5px">
+                                <th>Age</th>
+                                <th>Life</th>
+                                <th>Color</th>
+                                <th>Size</th>
+                                <th>Matter</th>
+                                <th>Distance From The Sun</th>
+                                <th>Temperature</th>
+                                <tr>
+                                    <td>Unknown</td>
                 <td>Unknown</td>
                 <td>Yellow White</td>
                 <td>3 star system - Polaris A, Polaris B, Polaris AB - 4.5 times greater than the sun</td>
                 <td>Hydrogen, Helium</td>
                 <td>430 light yrs away</td>
                 <td>5,700 Degrees Celius, similar to the sun's surface</td>
-            </tr>
-            <tr>
-                <td>Aldebaran (brightest star in Taurus constellation, 14th brightest in the sky)</td>
+                                </tr>
+                             </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group">
+                <div class="panel panel-default panelTitlePadding">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#star3">Aldebaran (brightest star in Taurus constellation, 14th brightest in the sky)</a>
+                    </h4>
+                    <div id="star3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                             <table border="1" style="padding: 5px">
+                                <th>Age</th>
+                                <th>Life</th>
+                                <th>Color</th>
+                                <th>Size</th>
+                                <th>Matter</th>
+                                <th>Distance From The Sun</th>
+                                <th>Temperature</th>
+                                <tr>
+                                  
                 <td>Unknown</td>
                 <td>Very long time (is a massive star)</td>
                 <td>Orange</td>
@@ -63,18 +109,43 @@
                 <td>Carbon, Oxygen, Nitrogen, Helium</td>
                 <td>65.23 light yrs away</td>
                 <td>About 5,800K</td>
-            </tr>
-            <tr>
-                <td>Sirius (brightest star in sky other than sun)</td>
-                <td>200-300 million years old</td>
+                                </tr>
+                             </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group">
+                <div class="panel panel-default panelTitlePadding">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#star4">Sirius (brightest star in sky other than sun)</a>
+                    </h4>
+                    <div id="star4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                             <table border="1" style="padding: 5px">
+                                <th>Age</th>
+                                <th>Life</th>
+                                <th>Color</th>
+                                <th>Size</th>
+                                <th>Matter</th>
+                                <th>Distance From The Sun</th>
+                                <th>Temperature</th>
+                                <tr>
+                                  
+               <td>200-300 million years old</td>
                 <td>Very long time</td>
                 <td>Blue White (rainbow star can flicker with many colors)</td>
                 <td>Twice mass of the sun</td>
                 <td>Hydrogen, Helium</td>
                 <td>8.6 light yrs away</td>
                 <td>17,000 Degrees Fahrenheit</td>
-            </tr>
-           </table>
+                                </tr>
+                             </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 </body>
