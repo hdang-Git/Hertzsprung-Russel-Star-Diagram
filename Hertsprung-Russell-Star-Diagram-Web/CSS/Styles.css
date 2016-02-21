@@ -23,6 +23,11 @@
    color:#4d4d4d;
    background-color: #d3d3d3;
 }
+.padding20
+{
+   padding: 20px;
+   text-align: center;
+}
 th
 {
    color:#FFFFFF;
@@ -33,11 +38,45 @@ tr
    color:#2F2F2F;
    background-color: #FFFFFF;
 }
+
 a
 {
-   color: #4d4d4d;
+   color:white;
 }
 a:hover
 {
+   
    text-decoration: none;
 }
+.txtAbout:hover
+{
+   color: #cccc00;
+}
+
+/*.purpleLink a:hover 
+{
+   background-color: purple;
+   color:white;
+   text-decoration: none;
+}*/
+
+
+@media only screen and (max-width: 600px)
+{
+   .desc
+   {
+      display: none;
+   }
+   .panel-group
+   {
+      margin: 0px;
+   }
+}
+@media only screen and (max-width: 1000px)
+{
+   .descSM
+   {
+      display: none;
+   }
+}
+
