@@ -36,11 +36,11 @@
                 <div class="collapse navbar-collapse" id="collapse-me">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="About.html">About</a></li>
-                    <li><a href="StarDiagram.html">Download Bright Stars</a></li>
                     <li><a href="HRDiagram.html">Hertzsprung-Russell Diagram</a></li>
                     <li><a href="StarCharacteristics.html">Star Characteristics</a></li>
                     <li><a href="AstronomyImportance.html">Importance of Astronomy</a></li>
                     <li><a href="AstronomyBenefits.html">Benefits of Astronomy</a></li>
+                    <li><a href="Bright Stars.jar">Download Bright Stars</a></li>
                 </ul>
             </div>
     </div>
@@ -49,8 +49,8 @@
             <div class="padding20">
                 <h2>Discover the brightest stars in the galaxy</h2>
                 <p class="desc">Bright Stars uses the Hertzsprung-Russell Star Diagram to help with visually classify stars and understand the universe.</p>
-                <button type="button" class="btn btn-lg" style="background-color:#cccc00">Download Bright Stars</button>
-                <a href="star-background.jpg" download>Link</a>
+                <a href="Bright Stars.jar" download><button type="button" class="btn btn-lg" style="background-color:#cccc00">
+                Download Bright Stars</button></a>
             </div>
             
            
@@ -73,7 +73,7 @@
             </div>
             <div class="col-md-3 col-sm-12">
                 <a href="AstronomyImportance.html" class="txtAbout">
-                <h4><span class="glyphicon glyphicon-globe bigIcon"style="color:#50A6C2"></span>
+                <h4><span class="glyphicon glyphicon-globe bigIcon" style="color:#50A6C2"></span>
                 <br/>
                 Importance of Astronomy</h4>
                 <p class="descSM">Learn about the significance of astronomy</p>
@@ -89,5 +89,12 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+function download(path) 
+{
+    var ifrm = document.getElementById("frame");
+    ifrm.src = path;
+}
+</script>
 </body>
 </html>
