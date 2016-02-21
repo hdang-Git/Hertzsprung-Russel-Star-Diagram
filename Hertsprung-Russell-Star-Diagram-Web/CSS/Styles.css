@@ -1,6 +1,6 @@
 ﻿html,body
 {
-   height:200%;
+   height:100%;
 }
 
 .navbar 
@@ -22,6 +22,16 @@
    padding: 20px;
    color:#4d4d4d;
    background-color: #d3d3d3;
+}
+th
+{
+   color:#FFFFFF;
+   background-color: #2F2F2F;
+}
+tr
+{
+   color:#2F2F2F;
+   background-color: #FFFFFF;
 }
 a
 {
